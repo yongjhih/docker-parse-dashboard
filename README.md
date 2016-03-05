@@ -1,6 +1,29 @@
 # Parse Dashboard
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/yongjhih/parse-dashboard.svg)](https://hub.docker.com/r/yongjhih/parse-dashboard/)
+[![Docker Stars](https://img.shields.io/docker/stars/yongjhih/parse-dashboard.svg)](https://hub.docker.com/r/yongjhih/parse-dashboard/)
+[![Docker Size](https://img.shields.io/imagelayers/image-size/yongjhih/parse-dashboard/latest.svg)](https://imagelayers.io/?images=yongjhih/parse-dashboard:latest)
+[![Docker Layers](https://img.shields.io/imagelayers/layers/yongjhih/parse-dashboard/latest.svg)](https://imagelayers.io/?images=yongjhih/parse-dashboard:latest)
+[![Docker Tag](https://img.shields.io/github/tag/yongjhih/docker-parse-dashboard.svg)](https://hub.docker.com/r/yongjhih/parse-dashboard/tags/)
+[![Travis CI](https://img.shields.io/travis/yongjhih/docker-parse-dashboard.svg)](https://travis-ci.org/yongjhih/docker-parse-dashboard)
+[![Gitter Chat](https://img.shields.io/gitter/room/yongjhih/docker-parse-dashboard.svg)](https://gitter.im/yongjhih/docker-parse-dashboard)
+
+[![Deploy to Docker Cloud](https://github.com/yongjhih/docker-parse-server/raw/master/art/deploy-to-docker-cloud.png)](https://cloud.docker.com/stack/deploy/?repo=https://github.com/yongjhih/docker-parse-dashboard)
+[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/?repo=https://github.com/yongjhih/docker-parse-dashboard)
+
 Parse Dashboard is standalone dashboard for managing your Parse apps. You can use it to manage your [Parse Server](https://github.com/ParsePlatform/parse-server) apps and your apps that are running on [Parse.com](https://Parse.com).
+
+## Getting Started With Docker
+
+```sh
+docker run -d -e APP_ID={appId} -e MASTER_KEY={masterKey} -p 4040:4040 yongjhih/parse-dashboard
+```
+
+or
+```sh
+wget https://github.com/yongjhih/docker-parse-dashboard/raw/master/docker-compose.yml
+APP_ID={appId} MASTER_KEY={masterKey} docker-compose up -d
+```
 
 ## Getting Started
 

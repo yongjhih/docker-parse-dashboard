@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "serverURL": "$PARSE_SERVER_URL",
+      "appId": "$PARSE_APP_ID",
+      "masterKey": "$PARSE_MASTER_KEY",
+      "javascriptKey": "$PARSE_JS_KEY",
+      "restKey": "$PARSE_REST_KEY",
+      "appName": "$PARSE_APP_NAME"
+    },
+    {
+      "serverURL": "$SERVER_URL",
+      "appId": "$APP_ID",
+      "masterKey": "$MASTER_KEY",
+      "appName": "$APP_NAME"
+    }
+  ]
+}
